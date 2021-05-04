@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Desafío clase 4</title>
+<script>
+	function elegirProductoYEnvio(elegirProducto){
+		var elegirProducto = prompt("¿Qué producto querés comprar? Labial/Máscara/Corrector");
+			switch(elegirProducto){
+						case "Labial":
+							return 450;
+							break;
+						case "Máscara":
+							return 1300;
+							break;
+						case "Corrector":
+							return 835;
+							break;
+						default:
+						return(alert("Producto ingresado inválido"));
+					}
+					
+			}
+	function elegirProductoYEnvio2(elegirEnvio){
+var elegirEnvio = prompt("1. comedia 2.");
+			switch(elegirEnvio){
+						case 1:
+							return ;
+							break;
+						case "no":
+							return 350;
+							break;
+						default:
+						return(alert("Responda por si o por no"));
+					}
+}
+	var importeTotal = elegirProductoYEnvio() + elegirProductoYEnvio2();
+	alert("El total de tu compra es:"+ importeTotal);
+	</script>
+
+
+</head>
+<body>
+	
+</body>
+</html>
